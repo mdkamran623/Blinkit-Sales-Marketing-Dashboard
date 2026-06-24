@@ -18,17 +18,11 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_LIVE_LINK_HERE" target="_blank">
+  <a href="https://mdkamran623.github.io/Blinkit-Sales-Marketing-Dashboard/" target="_blank">
     <img src="https://forthebadge.com" height="40" />
     <img src="https://shields.io" height="40" />
   </a>
 </p>
-
-<p align="center">
-  <sub>Optimized for all screen sizes (Mobile, Tablet, Desktop)</sub>
-</p>
-
-
 
 
 ## 📸 Preview
