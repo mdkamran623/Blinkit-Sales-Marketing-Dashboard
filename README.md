@@ -1,4 +1,4 @@
-# 🚀 Blinkit Sales & Marketing Dashboard
+# ⚡ Blinkit Sales & Marketing Dashboard
 
 > A fully responsive, professional sales and marketing analytics dashboard for Blinkit with real-time data visualization and multi-page navigation.
 
@@ -42,27 +42,11 @@ A modern, interactive dashboard featuring:
 
 ## 🚀 Quick Start
 
-### 1. Download
-```bash
-# Clone or download the project
-git clone <repository-url>
-cd IBM-BOB
-```
-
-### 2. Open
-```bash
-# Simply open in browser
-open blinkit-dashboard.html
-```
-
-**That's it!** No installation or build process required.
-
----
 
 ## 📁 Project Structure
 
 ```
-IBM-BOB/
+
 ├── blinkit-dashboard.html    # Main dashboard file
 ├── css/
 │   ├── styles.css            # Main styles
@@ -89,7 +73,7 @@ IBM-BOB/
 | **Chart.js 4.4** | Data Visualization |
 | **Leaflet.js 1.9** | Interactive Maps |
 
-**No build tools or dependencies required!**
+
 
 ---
 
@@ -129,30 +113,6 @@ Click any menu item in the sidebar:
 
 ---
 
-## 🎨 Customization
-
-### Change Colors
-Edit `css/styles.css`:
-```css
-:root {
-    --primary-color: #F8CB46;    /* Yellow */
-    --secondary-color: #0C831F;  /* Green */
-    --accent-color: #E23744;     /* Red */
-}
-```
-
-### Update Data
-Edit `js/data.js`:
-```javascript
-const dashboardData = {
-    kpis: {
-        totalRevenue: 1250000,
-        totalOrders: 8543,
-        // ... your data
-    }
-};
-```
-
 ### Add Features
 1. Add HTML in `blinkit-dashboard.html`
 2. Add styles in `css/styles.css`
@@ -183,34 +143,6 @@ const dashboardData = {
 
 ---
 
-## 📖 Documentation
-
-- **[Quick Start Guide](QUICK_START.md)** - Get started in 5 minutes
-- **[Navigation Guide](NAVIGATION_GUIDE.md)** - Complete navigation system
-- **[Interactive Features](INTERACTIVE_FEATURES.md)** - All interactive elements
-- **[Implementation Guide](IMPLEMENTATION_GUIDE.md)** - Technical details
-- **[Architecture](ARCHITECTURE_DIAGRAM.md)** - System architecture
-
----
-
-## 🔧 Development
-
-### Local Server (Optional)
-```bash
-# Python
-python -m http.server 8000
-
-# Node.js
-npx http-server
-
-# PHP
-php -S localhost:8000
-```
-
-Then open: `http://localhost:8000/blinkit-dashboard.html`
-
----
-
 ## ✅ Features Checklist
 
 - ✅ Fully responsive design
@@ -237,24 +169,6 @@ Then open: `http://localhost:8000/blinkit-dashboard.html`
 
 ---
 
-## 🚀 Deployment
-
-### Option 1: Static Hosting
-Upload all files to:
-- GitHub Pages
-- Netlify
-- Vercel
-- AWS S3
-
-### Option 2: Web Server
-Upload to any web server:
-- Apache
-- Nginx
-- IIS
-
-**No server-side code required!**
-
----
 
 ## 📝 License
 
@@ -264,7 +178,7 @@ MIT License - Free to use for personal and commercial projects.
 
 ## 👨‍💻 Author
 
-**Bob** - Full Stack Developer
+**MD KAMRAN** - Full Stack Developer
 
 ---
 
@@ -278,41 +192,12 @@ MIT License - Free to use for personal and commercial projects.
 
 ---
 
-## 📞 Support
 
-For questions or issues:
-- 📧 Email: support@example.com
-- 🐛 Issues: Open an issue in the repository
-- 📖 Docs: Check documentation files
 
----
-
-## 🔄 Updates
-
-**Version 1.0.0** (Current)
-- ✅ Complete dashboard with 7 pages
-- ✅ Full navigation system
-- ✅ Interactive features
-- ✅ Responsive design
-- ✅ Production ready
-
----
-
-## 🎉 Getting Started
-
-1. **Open** `blinkit-dashboard.html`
-2. **Explore** all 7 pages
-3. **Click** on interactive elements
-4. **Customize** as needed
-5. **Deploy** to production
-
-**That's it! Enjoy your dashboard!** 🚀
-
----
 
 <div align="center">
 
-**Made with ❤️ for Blinkit**
+**Made with ❤️ for mdkamran623**
 
 ⭐ Star this project if you find it useful!
 
