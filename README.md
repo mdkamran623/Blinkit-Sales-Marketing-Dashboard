@@ -11,13 +11,12 @@
 
 ## 🌐 Live Demo
 
-
-
 <p align="center">
-  <a href="https://mdkamran623.github.io/Blinkit-Sales-Marketing-Dashboard/E" target="_blank">
-    <img src="https://shields.io👉%20Click%20Here%20To%20See%20Live%20Project-0078d4?style=for-the-badge&logo=microsoft&logoColor=white" width="300" alt="Live Link"/>
+  <a href="YOUR_LIVE_LINK_HERE" target="_blank">
+    <img src="https://img.shields.io/badge/👉%20Click%20Here%20To%20See%20Live%20Project-0078d4?style=for-the-badge&logo=microsoft&logoColor=white" width="300" alt="Live Link"/>
   </a>
 </p>
+
 
 
 
