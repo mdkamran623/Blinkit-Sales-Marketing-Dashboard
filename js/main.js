@@ -119,14 +119,24 @@ function initializeEventListeners() {
     const sidebar = document.getElementById('sidebar');
     
     if (toggleBtn) {
-        toggleBtn.addEventListener('click', () => {
+        toggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
             sidebar.classList.toggle('active');
+            if (sidebar.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+                document.body.classList.add('sidebar-open');
+            } else {
+                document.body.style.overflow = '';
+                document.body.classList.remove('sidebar-open');
+            }
         });
     }
     
     if (closeBtn) {
         closeBtn.addEventListener('click', () => {
             sidebar.classList.remove('active');
+            document.body.style.overflow = '';
+            document.body.classList.remove('sidebar-open');
         });
     }
     
@@ -135,9 +145,41 @@ function initializeEventListeners() {
         if (window.innerWidth <= 991) {
             if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
                 sidebar.classList.remove('active');
+                document.body.style.overflow = '';
+                document.body.classList.remove('sidebar-open');
             }
         }
     });
+    
+    // Touch swipe support for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    document.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    
+    document.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+    
+    function handleSwipe() {
+        const swipeThreshold = 50;
+        const swipeDistance = touchEndX - touchStartX;
+        
+        // Swipe right to open (from left edge)
+        if (swipeDistance > swipeThreshold && touchStartX < 50 && window.innerWidth <= 991) {
+            sidebar.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        // Swipe left to close
+        if (swipeDistance < -swipeThreshold && sidebar.classList.contains('active')) {
+            sidebar.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    }
     
     // Sales trend period buttons
     const periodButtons = document.querySelectorAll('[data-period]');
