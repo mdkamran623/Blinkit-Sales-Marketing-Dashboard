@@ -12,11 +12,21 @@
 ## 🌐 Live Demo
 
 <p align="center">
+  <samp>
+    <b>⚡ EXPERIENCE THE LIVE APPLICATION ⚡</b>
+  </samp>
+</p>
+
+<p align="center">
   <a href="YOUR_LIVE_LINK_HERE" target="_blank">
-    <img src="https://img.shields.io/badge/👉%20Click%20Here%20To%20See%20Live%20Project-0078d4?style=for-the-badge&logo=microsoft&logoColor=white" width="300" alt="Live Link"/>
+    <img src="https://forthebadge.com" height="40" />
+    <img src="https://shields.io" height="40" />
   </a>
 </p>
 
+<p align="center">
+  <sub>Optimized for all screen sizes (Mobile, Tablet, Desktop)</sub>
+</p>
 
 
 
