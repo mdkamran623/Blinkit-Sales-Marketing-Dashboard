@@ -12,15 +12,8 @@
 ## 🌐 Live Demo
 
 <p align="center">
-  <samp>
-    <b>⚡ EXPERIENCE THE LIVE APPLICATION ⚡</b>
-  </samp>
-</p>
-
-<p align="center">
   <a href="https://mdkamran623.github.io/Blinkit-Sales-Marketing-Dashboard/" target="_blank">
-    <img src="https://forthebadge.com" height="40" />
-    <img src="https://shields.io" height="40" />
+    <img src="https://img.shields.io/badge/⚡%20Live%20Demo%20-%20Explore%20Now%20🚀-0078d4?style=for-the-badge&logo=googlechrome&logoColor=red" height="40" alt="Live Link"/>
   </a>
 </p>
 
