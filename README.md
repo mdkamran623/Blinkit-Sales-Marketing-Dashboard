@@ -8,6 +8,20 @@
 
 ---
 
+
+## 🌐 Live Demo
+
+
+
+<p align="center">
+  <a href="https://mdkamran623.github.io/Blinkit-Sales-Marketing-Dashboard/E" target="_blank">
+    <img src="https://shields.io👉%20Click%20Here%20To%20See%20Live%20Project-0078d4?style=for-the-badge&logo=microsoft&logoColor=white" width="300" alt="Live Link"/>
+  </a>
+</p>
+
+
+
+
 ## 📸 Preview
 
 A modern, interactive dashboard featuring:
@@ -47,7 +61,7 @@ A modern, interactive dashboard featuring:
 
 ```
 
-├── blinkit-dashboard.html    # Main dashboard file
+├── index.html    # Main dashboard file
 ├── css/
 │   ├── styles.css            # Main styles
 │   └── responsive.css        # Responsive design
@@ -114,7 +128,7 @@ Click any menu item in the sidebar:
 ---
 
 ### Add Features
-1. Add HTML in `blinkit-dashboard.html`
+1. Add HTML in `index.html`
 2. Add styles in `css/styles.css`
 3. Add logic in `js/main.js`
 
@@ -197,8 +211,8 @@ MIT License - Free to use for personal and commercial projects.
 
 <div align="center">
 
-**Made with ❤️ for mdkamran623**
+**Made with ❤️ for @mdkamran623**
 
-⭐ Star this project if you find it useful!
+
 
 </div>
